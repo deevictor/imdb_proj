@@ -6,7 +6,7 @@ copy name.basics.tsv to data/names_stream to launch names stream
 copy principals.basics.tsv to data/principals_stream to launch principals stream
 copy alias.basics.tsv to data/aliases_stream to launch aliases stream
 
-after that you can copy data/title.ratings.tsv to data/title_ratings_stream to launch stream_ratings
+after that you can copy title.ratings.tsv to data/title_ratings_stream to launch stream_ratings
 
 1. the top 10 movies with a minimum of 500 votes with the ranking determined by:
 (numVotes/averageNumberOfVotes) * averageRating will be displayed in the console.
